@@ -4,6 +4,11 @@ namespace HackerRank
 {
     public static partial class Solution
     {
+        /// <summary>
+        /// Calculates the total number of times the client receives a notification over a period of n days
+        /// </summary>
+        /// <param name="expenditure">An array of integers representing daily expenditures</param>
+        /// <param name="d">The lookback days for median spending</param>
         public static int activityNotifications(int[] expenditure, int d)
         {
             var ans = 0;
